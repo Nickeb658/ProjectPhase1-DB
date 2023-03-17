@@ -28,6 +28,12 @@ def printinfo(empname, hours, hourlyrate,grosspay, taxrate, incometax, netpay):
     print("Hours Worked: ", f"{hours:,.2f}")
     # write the lines of code to display hourlyrate, grosspay, taxrate, incometax and netpay with correct formatting
     # taxrate needs to be formatted as percentage
+   
+    print("Hourly Rate: ", f"${hourlyrate:,.2f}")
+    print("Gross Pay: ", f"${grosspay:,.2f}")
+    print("Tax Rate: ", f"{taxrate:.2%}")
+    print("Income Tax: ", f"${incometax:,.2f}")
+    print("Net Pay: ", f"${netpay:,.2f}")
 
 
 
