@@ -63,7 +63,7 @@ if __name__ == "__main__":
         # write the code to assign to hours the return value from GetHoursWorked
         hours = GetHoursWorked() # Get the hours worked
         hourlyrate = GetHourlyRate()  # Get the hourly rate
-        taxrate = GetTaxRate() # Get the tax rate
+        taxrate = GetTaxRate() # Return the tax rate
      
         # write the code to assign to taxrate the return value from GetTaxRate
         
